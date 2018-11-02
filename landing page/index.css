@@ -20,8 +20,7 @@ body {
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a c b" 
-                        ". . ."
+    grid-template-areas: "a . b" ". . ." "c c c"
 }
 
 .sub-header {
@@ -34,15 +33,12 @@ body {
 
 .subheader,
 h2 {
-
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     color: #f65a4c;
     text-shadow: 4px 4px 0 #00a0f0;
     letter-spacing: 1em;
-    
-   
 }
 
 .sub-header2 {
@@ -56,6 +52,54 @@ h2 {
     padding: 10px;
 }
 
+.blank-btn {
+    grid-area: c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff8181;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #bd6565;
+    transition: .4s;
+    margin-top: 25%;
+    /* padding-bottom: -10px; */
+}
+
+.btn:active {
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+}
+
+.welcome-btn {
+    background: #d4ef40;
+}
+
+.portfolio-btn {
+    background: #00a0f0;
+}
+
+.contact-btn {
+    background: #695bb4;
+}
 
 .header {
     font-family: 'Monteserrat Alternates', sans-serif;
