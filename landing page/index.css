@@ -20,7 +20,8 @@ body {
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: ". . b" ". a a"
+    grid-template-areas: "a c b" 
+                        ". . ."
 }
 
 .sub-header {
@@ -28,24 +29,33 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -25%;
-    margin-bottom: -50%;
+    padding: 10px;
 }
 
 .subheader,
 h2 {
-    font-size: 25px;
+
+    font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #f65a4c;
     text-shadow: 4px 4px 0 #00a0f0;
+    letter-spacing: 1em;
+    
+   
 }
+
 .sub-header2 {
     grid-area: b;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
+.social-btn {
+    padding: 10px;
+}
+
 
 .header {
     font-family: 'Monteserrat Alternates', sans-serif;
@@ -63,7 +73,6 @@ h2 {
     height: 40px;
     top: 50%;
     margin-top: -20px;
-    margin-right: -25%;
 }
 
 p {
