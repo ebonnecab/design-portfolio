@@ -56,7 +56,7 @@ h2 {
     grid-area: c;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .btn {
@@ -77,7 +77,7 @@ h2 {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
     border-bottom: solid 3px #bd6565;
     transition: .4s;
-    margin-top: 25%;
+    margin-top: 20%;
     /* padding-bottom: -10px; */
 }
 
@@ -89,9 +89,11 @@ h2 {
     border-bottom: none;
 }
 
-.welcome-btn {
+.about-btn {
     background: #d4ef40;
 }
+
+.resume-btn {}
 
 .portfolio-btn {
     background: #00a0f0;
@@ -104,7 +106,7 @@ h2 {
 .header {
     font-family: 'Monteserrat Alternates', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
 }
