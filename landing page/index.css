@@ -1,20 +1,18 @@
 html,
 body {
     height: 100%;
+    margin: 0;
 }
 
-body {
+
+.container {
     background-image: url(./images/joanna-kosinska-hand.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
-}
-
-.container {
-    width: 100%;
-    height: 75%;
+    width: 100%;    
     margin: 0px;
     display: grid;
     grid-gap: 2em;
@@ -77,8 +75,9 @@ h2 {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
     border-bottom: solid 3px #bd6565;
     transition: .4s;
-    margin-top: 20%;
-    /* padding-bottom: -10px; */
+    margin-top: -15%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn:active {
@@ -93,7 +92,9 @@ h2 {
     background: #d4ef40;
 }
 
-.resume-btn {}
+.resume-btn {
+    background: #f65a4c;
+}
 
 .portfolio-btn {
     background: #00a0f0;
@@ -174,3 +175,40 @@ p {
 .midnight {
     color: #f65a4c;
 }
+
+#home{
+    height: 1000px;
+}
+
+#page1{
+    height: 1000px;
+}
+
+#page2{
+    height: 1000px;
+}
+
+#page3{
+    height: 1000px;
+}
+
+#page4{
+    height: 1000px;
+}
+
+.about {
+    background-color: #F8F8FF;
+    
+}
+.resume{
+    background-color: #00a0f0;
+}
+
+.contact{
+    background-color: #695bb4;
+}
+
+.portfolio{
+    background-color: #d4ef40;
+}
+
