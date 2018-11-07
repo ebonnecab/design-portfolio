@@ -228,8 +228,17 @@ p {
 
 .module2{
     grid-area: b;
-    /* border: solid black 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.module2 p {
+    font-family: 'Raleway', sans-serif;
+    color: #708090;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 32px;
 }
 
 .module3{
