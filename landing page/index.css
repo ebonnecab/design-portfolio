@@ -50,7 +50,7 @@ h2 {
     padding: 10px;
 }
 
-.blank-btn {
+.nav-btn {
     grid-area: c;
     display: flex;
     flex-direction: row;
@@ -198,7 +198,44 @@ p {
 
 .about {
     background-color: #F8F8FF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2em;
+    grid-template-areas: "a b b"
+                         "c c c";
+    margin: 0;
+    /* width: 100%; */
+    padding: 10px;
+}
+
+.module1 {
+    grid-area: a;
+}
+
+.module1 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 75px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
     
+}
+
+
+.module2{
+    grid-area: b;
+    /* border: solid black 5px; */
+
+}
+
+.module3{
+    grid-area: c;
+    border: solid black 5px;
+
 }
 .resume{
     background-color: #00a0f0;
@@ -211,4 +248,5 @@ p {
 .portfolio{
     background-color: #d4ef40;
 }
+
 
