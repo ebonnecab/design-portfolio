@@ -191,7 +191,7 @@ p {
 }
 
 #page1 {
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 #page2 {
@@ -209,23 +209,23 @@ p {
 /* about page */
 
 .about {
-    background-color: #F8F8FF;
+    /* background-color: #F8F8FF; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 2em;
-    grid-template-areas: "a b b" "e . .";
-    margin: 0;
-    padding: 10px;
+    grid-template-areas: "a b b" "f e e";
+    margin: 1em;
+    padding: 1em;
 }
 
 .about1 {
     grid-area: a;
 }
 
-.about1 h1 {
+.about1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 75px;
+    font-size: 50px;
     color: #28292A;
     padding: 10px;
     display: flex;
@@ -233,6 +233,8 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 45%;
+    text-decoration: none;
+    list-style: none;
 }
 
 .about2 {
@@ -253,13 +255,12 @@ p {
 }
 
 .about2 h2 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #00a0f0;
     font-size: 32px;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
-
-
 
 .about4 {
     grid-area: d;
@@ -268,7 +269,7 @@ p {
 .about3 {
     grid-area: e;
     font-family: 'Quicksand', sans-serif;
-    
+    /* border: black solid 5px; */
 }
 
 .about3 .content {
@@ -280,12 +281,23 @@ p {
     padding: 10px;
 }
 
-hr {
-    border: #00a0f0 thin solid;
-    
+.about4 {
+    grid-area: f;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+.subheader {
+    color: #00a0f0;
+}
+
+hr {
+    border: #00a0f0 thin solid;
+}
 
 .right,
 .sub-header2 {
@@ -311,6 +323,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "a a a" "b c d" "e f g";
+    margin: 10px;
 }
 
 .portfolio1 {
