@@ -4,49 +4,7 @@ body {
     margin: 0;
 }
 
-/* home page container */
 
-.container {
-    background-image: url(./images/joanna-kosinska-hand.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    margin: 0px;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a . b" ". . ." "c c c"
-}
-
-/* sub-header home page */
-
-.sub-header {
-    grid-area: a;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-}
-
-.sub-header h2 {
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    color: #f65a4c;
-    text-shadow: 4px 4px 0 #00a0f0;
-    letter-spacing: 1em;
-}
-
-.sub-header2 {
-    grid-area: b;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
 
 /* contact buttons */
 
@@ -110,79 +68,6 @@ body {
     background: #695bb4;
 }
 
-/* header-home page */
-
-.header {
-    font-family: 'Monteserrat Alternates', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-}
-
-.text {
-    position: absolute;
-    width: 450px;
-    left: 50%;
-    margin-left: -200px;
-    height: 40px;
-    top: 50%;
-    margin-top: -20px;
-}
-
-p {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
-}
-
-.word {
-    position: absolute;
-    width: 220px;
-    opacity: 0;
-}
-
-.letter {
-    display: inline-block;
-    position: relative;
-    float: left;
-    transform: translateZ(25px);
-    transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-    transform: rotateX(90deg);
-    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-    transform: rotateX(-90deg);
-}
-
-.letter.in {
-    transform: rotateX(0deg);
-    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-    color: #695bb4;
-}
-
-.belize {
-    color: #d4ef40;
-}
-
-.pomegranate {
-    color: #00a0f0;
-}
-
-.green {
-    color: #16a085;
-}
-
-.midnight {
-    color: #f65a4c;
-}
 
 /* one page scrolling setup */
 
