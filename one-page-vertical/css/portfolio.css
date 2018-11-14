@@ -1,0 +1,55 @@
+/* portfolio page */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "a a a a a a "
+        "b b b c c c"
+        "d d d e e e "
+        "f f f g g g";
+    margin: 10px;
+}
+
+.portfolio1 {
+    grid-area: a;
+    /* border: black solid 5px; */
+}
+
+.portfolio1 .sub-header2 {
+    margin-top: -10%;
+}
+
+.portfolio2 {
+    grid-area: b;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.portfolio3 {
+    grid-area: c;
+    border: black solid 5px;
+}
+
+.portfolio4 {
+    grid-area: d;
+    border: black solid 5px;
+}
+
+.portfolio5 {
+    grid-area: e;
+    border: black solid 5px;
+}
+
+.portfolio6 {
+    grid-area: f;
+    border: black solid 5px;
+}
+
+.portfolio7 {
+    grid-area: g;
+    border: black solid 5px;
+}
