@@ -190,11 +190,7 @@ p {
     height: 1000px;
 }
 
-#page1 {
-    /* height: 1000px; */
-}
-
-#page2 {
+#page2{
     height: 1000px;
 }
 
@@ -320,15 +316,18 @@ hr {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a a a" "b c d" "e f g";
+    grid-template-areas: "a a a a a a "
+                         "b b b c c c"
+                         "d d d e e e "
+                         "f f f g g g";
     margin: 10px;
 }
 
 .portfolio1 {
     grid-area: a;
-    border: black solid 5px;
+    /* border: black solid 5px; */
 }
 
 .portfolio1 .sub-header2 {
@@ -337,8 +336,12 @@ hr {
 
 .portfolio2 {
     grid-area: b;
-    border: black solid 5px;
+    height: 100%;
+    width: 100%;
+   
 }
+
+
 
 .portfolio3 {
     grid-area: c;
