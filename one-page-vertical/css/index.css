@@ -12,6 +12,28 @@ body {
     padding: 10px;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    transition: .4s;
+    margin-top: -15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn:active {
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+}
 
 
 
@@ -19,9 +41,7 @@ body {
 
 /* one page scrolling setup */
 
-#home {
-    height: 1000px;
-}
+
 
 #page2{
     height: 1000px;

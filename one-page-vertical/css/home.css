@@ -63,9 +63,6 @@
 /* header-home page */
 
 .header {
-    font-family: 'Monteserrat Alternates', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
     display: flex;
     flex-direction: column;
 }
