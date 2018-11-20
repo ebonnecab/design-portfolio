@@ -2,12 +2,11 @@
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a a a a a a "
-        "b b b c c c"
-        "d d d e e e "
-        "f f f g g g";
+    grid-template-areas: "a a"
+                         "b c"
+                         "e f";
     margin: 10px;
 }
 
@@ -20,36 +19,41 @@
     margin-top: -10%;
 }
 
+.flex-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.port-btn{
+    width: 200px;
+    height: 200px;
+}
+
 .portfolio2 {
     grid-area: b;
     height: 100%;
     width: 100%;
-
 }
-
 
 
 .portfolio3 {
     grid-area: c;
-    border: black solid 5px;
-}
+    height: 100%;
 
-.portfolio4 {
-    grid-area: d;
-    border: black solid 5px;
 }
 
 .portfolio5 {
     grid-area: e;
-    border: black solid 5px;
+    height: 100%;
+
 }
 
 .portfolio6 {
     grid-area: f;
-    border: black solid 5px;
+    height: 100%;
+
 }
 
-.portfolio7 {
-    grid-area: g;
-    border: black solid 5px;
-}

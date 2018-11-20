@@ -4,7 +4,23 @@ body {
     margin: 0;
 }
 
+/* Top nav bar */
 
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #7e7e7e;
+    font-family: 'Quicksand', sans-serif;
+}
 
 /* contact buttons */
 
@@ -31,17 +47,9 @@ body {
     height: 1000px;
 }
 
-#page4 {
-    height: 1000px;
-}
 
 
 
-/* resume page */
-
-.resume {
-    background-color: #00a0f0;
-}
 
 /* contact page */
 

@@ -13,7 +13,7 @@
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a . b"". . .""c c c"
+    grid-template-areas: "a . b"". c .""d d d";
 }
 
 /* sub-header home page */
@@ -28,7 +28,7 @@
 
 .sub-header h2 {
     font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     color: #f65a4c;
     text-shadow: 4px 4px 0 #00a0f0;
@@ -63,21 +63,25 @@
 /* header-home page */
 
 .header {
-    font-family: 'Monteserrat Alternates', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: c;
 }
 
 .text {
+    font-family: 'Monteserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
     position: absolute;
     width: 450px;
     left: 50%;
-    margin-left: -200px;
+    margin-left: -100px;
     height: 40px;
     top: 50%;
     margin-top: -20px;
+
 }
 
 p {
@@ -138,7 +142,7 @@ p {
 
 
 .nav-btn {
-    grid-area: c;
+    grid-area: d;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -153,7 +157,7 @@ p {
     height: 120px;
     line-height: 120px;
     border-radius: 50%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.2em;
     text-align: center;
     font-weight: bold;
