@@ -4,18 +4,18 @@
     /* background-color: #F8F8FF; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 2em;
-    grid-template-areas: "a b b""f e e";
+    grid-template-areas: "c c c" "a b b""f e e";
     margin: 1em;
     padding: 1em;
 }
 
-.about1 {
-    grid-area: a;
+.about0{
+    grid-area: c;
+    height: 20px;
 }
 
 .about1 {
+    grid-area: a;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     color: #28292A;
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 45%;
+    /* margin-top: 45%; */
     text-decoration: none;
     list-style: none;
 }
