@@ -13,6 +13,10 @@
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 
 .small > p {
     display: block;
@@ -30,7 +34,7 @@
     letter-spacing: 0.5em;
 }
 
- span {
+ .grey {
     color: #a9abb3;
 }
 
@@ -73,16 +77,22 @@ a{
     color: #28292A;
 }
 .text {
-    font-family: 'Monteserrat Alternates', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 35px;
     position: absolute;
     width: 450px;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -130px;
     height: 40px;
     top: 50%;
-    margin-top: -20px;
+    /* margin-top: -20px; */
+}
+
+.i-am{
+    position: relative;
+    margin-top: -35%;
+    /* margin-left: 20px; */
 }
 
 .descript{
