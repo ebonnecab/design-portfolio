@@ -9,11 +9,6 @@
     overflow: hidden;
     width: 100%;
     margin: 0px;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a . b"". . .""c c c"
 }
 
 /* sub-header home page */
@@ -26,44 +21,17 @@
     padding: 10px;
 }
 
-.sub-header h2 {
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    color: #f65a4c;
-    text-shadow: 4px 4px 0 #00a0f0;
-    letter-spacing: 1em;
-}
-
-.sub-header2 {
-    grid-area: b;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-/* nav buttons */
-
-.about-btn {
-    background: #d4ef40;
-}
-
-.resume-btn {
-    background: #f65a4c;
-}
-
-.portfolio-btn {
-    background: #00a0f0;
-}
-
-.contact-btn {
-    background: #695bb4;
-}
 
 /* header-home page */
 
 .header {
     display: flex;
+    flex-direction: column;
+}
+
+.i-am{
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
@@ -135,7 +103,6 @@ p {
 
 
 .nav-btn {
-    grid-area: c;
     display: flex;
     flex-direction: row;
     justify-content: center;

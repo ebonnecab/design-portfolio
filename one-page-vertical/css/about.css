@@ -4,8 +4,6 @@
     /* background-color: #F8F8FF; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 2em;
     grid-template-areas: "c c c" "a b b""f e e";
     margin: 1em;
     padding: 1em;

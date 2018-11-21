@@ -2,8 +2,8 @@
     background-color: #f2f2f2;
     -webkit-animation: pulse 30s infinite alternate;
     width: 100%;
-    margin: 15px;
-    height: 680px;
+    /* margin: 15px; */
+    height: 1000px;
 }
 .center{
     margin: 0 auto;
@@ -30,7 +30,7 @@
     letter-spacing: 0.5em;
 }
 
-.caption span {
+ span {
     color: #a9abb3;
 }
 
