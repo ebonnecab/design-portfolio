@@ -1,13 +1,28 @@
 .port-header{
     font-size: 0.5em;
     font-weight: bold;
-    color: #28292A;
+    letter-spacing: 0.5em;
+    color:#00a0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio{
+     font-family: 'Quicksand',sans-serif;
+}
+
+.port-content{
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio{
-     font-family: 'Quicksand',sans-serif;
+.sub-head{
+    text-transform: lowercase;
+    font-size: 0.7em;
 }
