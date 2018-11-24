@@ -1,6 +1,7 @@
 .container {
     background-color: #f2f2f2;
     width: 100%;
+    margin: 15px;
     height: 1000px;
 }
 .center{
@@ -70,9 +71,12 @@ h2 {
 }
 
 a{
-    text-decoration-style: dotted;
     cursor: pointer;
     color: #28292A;
+}
+
+.dot{
+     text-decoration-style: dotted;
 }
 .text {
     font-family: 'Quicksand', sans-serif;
