@@ -1,58 +1,99 @@
-/* home page container */
-
 .container {
-    background-image: url(../images/joanna-kosinska-hand.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: hidden;
+    background-color: #f2f2f2;
     width: 100%;
-    margin: 0px;
+    height: 1000px;
+}
+.center{
+    margin: 0 auto;
 }
 
-/* sub-header home page */
+.text-center{
+    text-align: center;
+}
 
-.sub-header {
-    grid-area: a;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+.bold {
+    font-weight: bold;
 }
 
 
-/* header-home page */
-
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: c;
+.small > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
-.i-am{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+.caption {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
 }
 
+ .grey {
+    color: #a9abb3;
+}
+
+.dark{
+    color: #28292A;
+
+}
+
+.soft-top--double {
+    padding-top: 80px;
+}
+
+.soft-bottom {
+    padding-bottom: 40px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 55px;
+    font-size: 40px;
+}
+
+.intro-txt{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+.content-medium {
+    width: 80%;
+    max-width: 650px;
+}
+
+a{
+    text-decoration-style: dotted;
+    cursor: pointer;
+    color: #28292A;
+}
 .text {
-    font-family: 'Monteserrat Alternates', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 35px;
     position: absolute;
     width: 450px;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -130px;
     height: 40px;
     top: 50%;
-    margin-top: -20px;
-
+    /* margin-top: -20px; */
 }
 
-p {
+.i-am{
+    position: relative;
+    margin-top: -35%;
+    /* margin-left: 20px; */
+}
+
+.descript{
     display: inline-block;
     vertical-align: top;
     margin: 0;
@@ -104,60 +145,4 @@ p {
 
 .midnight {
     color: #f65a4c;
-}
-
-/* nav buttons */
-
-
-.nav-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.btn {
-    display: inline-block;
-    text-decoration: none;
-    background: #ff8181;
-    color: #FFF;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    border-radius: 50%;
-    font-family: 'Quicksand', sans-serif;
-    letter-spacing: 0.2em;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    overflow: hidden;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
-    border-bottom: solid 3px #bd6565;
-    transition: .4s;
-    margin-top: -15%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.btn:active {
-    -ms-transform: translateY(2px);
-    -webkit-transform: translateY(2px);
-    transform: translateY(2px);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-    border-bottom: none;
-}
-
-.about-btn {
-    background: #d4ef40;
-}
-
-.resume-btn {
-    background: #f65a4c;
-}
-
-.portfolio-btn {
-    background: #00a0f0;
-}
-
-.contact-btn {
-    background: #695bb4;
 }

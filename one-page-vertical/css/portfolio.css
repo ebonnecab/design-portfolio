@@ -1,0 +1,13 @@
+.port-header{
+    font-size: 0.5em;
+    font-weight: bold;
+    color: #28292A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio{
+     font-family: 'Quicksand',sans-serif;
+}
