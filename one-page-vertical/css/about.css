@@ -9,11 +9,6 @@
     padding: 1em;
 }
 
-.about0{
-    grid-area: c;
-    height: 20px;
-}
-
 .about1 {
     grid-area: a;
     font-family: 'Josefin Sans', sans-serif;

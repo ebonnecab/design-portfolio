@@ -16,7 +16,6 @@
     font-weight: bold;
 }
 
-
 .small > p {
     display: block;
     margin-block-start: 1em;
@@ -144,7 +143,7 @@ a{
 }
 
 .green {
-    color: #16a085;
+    color: #d4ef40;
 }
 
 .midnight {
